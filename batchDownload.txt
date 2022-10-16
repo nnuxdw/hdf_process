@@ -1,0 +1,3 @@
+## wget命令从Earth data(https://cmr.earthdata.nasa.gov/search/concepts/C1266136071-GES_DISC.html)网站批量下载OMI臭氧数据
+## 以下载2004年的数据为例
+wget --load-cookies E:\wget-1.20.3\.urs_cookies  --save-cookies E:\wget-1.20.3\.urs_cookies --auth-no-challenge=on --keep-session-cookies --user=nnuxdw --ask-password  -i D:\lzu\课程学习\大气遥感\2008-2018_OMI_O3_DATA\data-url.txt
